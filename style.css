@@ -1,0 +1,232 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grey-background {
+    background-color: #d3d3d3; /* Warna abu-abu */
+    padding: 20px; /* Menambahkan padding */
+    border-radius: 5px; /* Menambahkan border radius */
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo img {
+    width: 100px;
+}
+
+nav .menu table {
+    border: 2px solid #000; 
+    border-collapse: collapse;
+}
+
+nav .menu td {
+    border: 2px solid #000; 
+    padding: 10px 20px;
+}
+
+nav .menu td a {
+    text-decoration: none;
+    color: #333;
+}
+
+hr {
+    margin-top: 10px;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.intro h1 {
+    text-align: center;
+}
+
+.intro p {
+    text-align: center;
+    color: #888;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 60px; /* Menambahkan jarak antara .left dan .right */
+}
+
+.left, .right {
+    width: 48%;
+}
+
+.left img {
+    width: 100%;
+    height: auto;
+}
+
+blockquote {
+    font-style: italic;
+    color: #555;
+    margin-top: 10px;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.testimonial-author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.testimonial-author .name {
+    margin: 0; /* Menghilangkan margin default */
+}
+
+.testimonial-author .occupation {
+    margin: 0; /* Menghilangkan margin default */
+    color: grey; /* Mengubah warna teks menjadi abu-abu */
+}
+
+.contact-form {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact-form h2 {
+    margin-top: 0;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact-form input, .contact-form select, .contact-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.features {
+    margin-top: 20px;
+}
+
+.features h2 {
+    text-align: center;
+}
+
+.packages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.package {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.icon-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #d3d3d3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.icon-circle i {
+    color: #333;
+    font-size: 20px;
+}
+
+.package-info h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.package-info p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #555;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#contactForm label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#contactForm input,
+#contactForm select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+#contactForm button {
+    padding: 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contactForm button:hover {
+    background-color: #333;
+}
+
+.our-package {
+    margin-bottom: 100px; /* Tambahkan jarak bawah */
+    margin-top: 100px; /* Tambahkan jarak bawah */
+}
+
+.call-us {
+    text-align: center;
+    margin: 100px 0; /* Tambahkan jarak atas dan bawah */
+}
+
+.call-us-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer-content {
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.footer-content .logo1 img {
+    width: 100px;
+}
